@@ -338,25 +338,21 @@ see the upstream project [michaelgrosner/tribeca](https://github.com/michaelgros
 
 ### Unlock
 
-All features are unlocked for collaborators and contributors (feel free to make acceptable Pull Requests for already opened issues or for anything you consider useful, and to let me know in the description of the PR the BTC Payment Address displayed in the bot that you wish to unlock, and i will credit it for you).
-
-While locked the amount of market levels is limited (only the first 3 price levels from the exchange are used); once unlocked the bot reads the full market levels of the exchange (up to thousands depending on the exchange).
-
-Anonymous users can also unlock all features but is required a payment of 0.12100000 BTC to the address displayed in the IU of the bot.
-
-Alternatively use `--free-version` argument to anonymously avoid the payment and to unlock all features; market levels will be all visible and usable but slowdown a few milliseconds with a [XMR mining calculation](https://github.com/monero-project/monero/blob/master/src/crypto/hash.c#L42) of 1 hash (if the hash meets the current XMR network target it will be send to my XMR pool for my fun and profit).
-
-To provide exclusivity to proefficient traders and to keep teenagers away, once the bot is bug-free, the payment required may be increased by a minimum of x3.
-
-The current payment is to support further development by ctubio to fix all bugs on the market you are paying against (an alternative [Votes](#votes) system).
-
-Otherwise if you choose to not support further development by ctubio, just keep running some old commit and do not upgrade.
-
+Everything is free, but since you were prepared to pay money for this software, consider donating that money to a few worthwhile places.  
 ### Donations
 
-nope, this project doesn't have maintenance costs. but you can donate to your favorite developer today! (or tomorrow!)
+I would recommend you donate to some of these places if you can.
 
-or see the upstream project [michaelgrosner/tribeca](https://github.com/michaelgrosner/tribeca).
+https://www.whitehelmets.org/en
+
+https://www.givewell.org/charities/AMF/donate
+
+https://www.givewell.org/donate
+
+Or you can donate to me if you want, though I'd recommend you donate to the places above.  I'll let you know how to donate to me later.
+
+
+You can also donate to the upstream project here.  [michaelgrosner/tribeca](https://github.com/michaelgrosner/tribeca).
 
 or donate your time with programming or financial suggestions in the topical IRC channel [##tradingBot](https://kiwiirc.com/client/irc.domirc.net:6697/?theme=cli##tradingBot) at irc.domirc.net on port 6697 (SSL), or 6667 (plain) or feel free to make any question, but questions technically are not donations.
 
@@ -376,55 +372,5 @@ or donate your time with programming or financial suggestions in the topical IRC
 - http://libuv.org
 - https://github.com/michaelgrosner/tribeca (https://github.com/michaelgrosner)
 
-### Help
 
-If you need installation or usage support contact me at [earn.com/analpaper](https://earn.com/analpaper/) (non-free high-priority service).
-
-### Issues
-
-To request new features open a [new issue](https://github.com/ctubio/Krypto-trading-bot/issues/new?title=Feature%20request) and explain your improvement as you consider.
-
-To report errors open a [new issue](https://github.com/ctubio/Krypto-trading-bot/issues/new?title=Error%20report) only after collecting all possible relevant log messages.
-
-Pull Requests are welcome, but adhere to the Contributor License Agreement:
-- Your biological and technological distinctiveness will be added to our own. Resistance is futile.
-
-### Votes
-
-What exchange you don't want to be deleted from the bot?
-
-[![](https://m131jyck4m.execute-api.us-west-2.amazonaws.com/prod/poll/01BPF861CD0EVTZHPF0JJ7TZQJ/GDAX)](https://m131jyck4m.execute-api.us-west-2.amazonaws.com/prod/poll/01BPF861CD0EVTZHPF0JJ7TZQJ/GDAX/vote)
-[![](https://m131jyck4m.execute-api.us-west-2.amazonaws.com/prod/poll/01BPF861CD0EVTZHPF0JJ7TZQJ/Bitfinex)](https://m131jyck4m.execute-api.us-west-2.amazonaws.com/prod/poll/01BPF861CD0EVTZHPF0JJ7TZQJ/Bitfinex/vote)
-[![](https://m131jyck4m.execute-api.us-west-2.amazonaws.com/prod/poll/01BPF861CD0EVTZHPF0JJ7TZQJ/OkCoin)](https://m131jyck4m.execute-api.us-west-2.amazonaws.com/prod/poll/01BPF861CD0EVTZHPF0JJ7TZQJ/OkCoin/vote)
-[![](https://m131jyck4m.execute-api.us-west-2.amazonaws.com/prod/poll/01BPF861CD0EVTZHPF0JJ7TZQJ/HitBTC)](https://m131jyck4m.execute-api.us-west-2.amazonaws.com/prod/poll/01BPF861CD0EVTZHPF0JJ7TZQJ/HitBTC/vote)
-[![](https://m131jyck4m.execute-api.us-west-2.amazonaws.com/prod/poll/01BPF861CD0EVTZHPF0JJ7TZQJ/Korbit)](https://m131jyck4m.execute-api.us-west-2.amazonaws.com/prod/poll/01BPF861CD0EVTZHPF0JJ7TZQJ/Korbit/vote)
-[![](https://m131jyck4m.execute-api.us-west-2.amazonaws.com/prod/poll/01BPF861CD0EVTZHPF0JJ7TZQJ/Poloniex)](https://m131jyck4m.execute-api.us-west-2.amazonaws.com/prod/poll/01BPF861CD0EVTZHPF0JJ7TZQJ/Poloniex/vote)
-[![](https://m131jyck4m.execute-api.us-west-2.amazonaws.com/prod/poll/01BPF861CD0EVTZHPF0JJ7TZQJ/Delete%20all%2C%20my%20exchange%20is%20none%20of%20these.)](https://m131jyck4m.execute-api.us-west-2.amazonaws.com/prod/poll/01BPF861CD0EVTZHPF0JJ7TZQJ/Delete%20all%2C%20my%20exchange%20is%20none%20of%20these./vote)
-
-### like yesterday, since 0day and ∞
-
-![bcn](https://user-images.githubusercontent.com/1634027/29495722-1d924018-85c5-11e7-8d61-d83f5716ae9e.jpg)
-
-### every new day we sing:
-
- - https://www.youtube.com/watch?v=g--fsK6aLf8
- - https://www.youtube.com/watch?v=Rom4qWtEkMA
- - https://www.youtube.com/watch?v=wXHm9Yl5tRM
- - https://www.youtube.com/watch?v=xPg_e_3cK-E
- - https://www.youtube.com/watch?v=KKpcQIfIAi8
- - https://www.youtube.com/watch?v=lwspxyzOfkY
- - https://www.youtube.com/watch?v=pZAmer0EmMQ
- - https://www.youtube.com/watch?v=50aXt1ctmUU
- - https://www.youtube.com/watch?v=vofff0Ei3kk
- - https://www.youtube.com/watch?v=4Ois3zB7SJ4
- - https://www.youtube.com/watch?v=1rNT0paAGTs
- - https://www.youtube.com/watch?v=_wGDcWD1E1A
- - https://www.youtube.com/watch?v=DVg2EJvvlF8
- - add your song here (please open a [new issue](https://github.com/ctubio/Krypto-trading-bot/issues/new?title=Today,%20I%20sing) to share your link)
-<p align="center"><!--img src="https://user-images.githubusercontent.com/1634027/32134633-642bb47a-bbf1-11e7-809c-f2d4d57678e0.jpg" />
-<br /><br /><br /><br /><br /><br /><br />
-<img src="https://user-images.githubusercontent.com/1634027/32695988-22681724-c76b-11e7-8557-7f2b15b2686b.jpg" />
-<br /><br /><br /><br />Violence should not be the answer to those who<br />are asking for freedom.<br /--><br /><br /><br /><br />
-<img src="https://user-images.githubusercontent.com/1634027/29746351-7478d556-8ad7-11e7-8b27-445eefa8f960.jpg" />
-<br /><br /><br /><br /><br /><br /><br /><br /><br />
-<img width="300" src="http://hits.dwyl.io/ctubio/Krypto-trading-bot.svg" /></p>
+### Thanks
