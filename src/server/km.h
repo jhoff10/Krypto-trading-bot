@@ -54,12 +54,12 @@ namespace K {
     double            targetBasePosition            = 1.0;
     int               targetBasePositionPercentage  = 50;
     double            positionDivergence            = 0.9;
-    int               positionDivergencePercentage  = 21;
+    int               positionDivergencePercentage  = 35;
     bool              percentageValues              = false;
     mAutoPositionMode autoPositionMode              = mAutoPositionMode::EWMA_LS;
     mAPR              aggressivePositionRebalancing = mAPR::Off;
     mSOP              superTrades                   = mSOP::Off;
-    double            tradesPerMinute               = 0.9;
+    double            tradesPerMinute               = 1;
     int               tradeRateSeconds              = 3;
     bool              quotingEwmaProtection         = true;
     int               quotingEwmaProtectionPeriods  = 200;
@@ -505,7 +505,7 @@ namespace K {
       uWS::Group<uWS::CLIENT> *gwGroup = nullptr;
       mExchange exchange = mExchange::Null;
           int free    = 0;
-       double makeFee = 0,  minTick = 0,
+       double makeFee = .0025,  minTick = 0,
               takeFee = 0,  minSize = 0;
        string base    = "", quote   = "",
               name    = "", symbol  = "",
